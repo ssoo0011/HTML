@@ -1,0 +1,99 @@
+
+#contents>#cont1{
+    width : 480px;
+    height : 200px;
+    background-color: white;
+    float : left;
+}
+#cont1>#notice{
+    width: 475px;
+    height: 150;
+    position: relative;
+    top: 10px;
+    background-color: white;
+    float: left;
+}
+
+#cont1>#conbt>a>span{
+    width: 200px;
+    background-color: white;
+    color: black;
+    height: 30px;
+    float: left;
+    margin-left: 7px;
+    margin-top: 10px;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+#cont1>#conbt>a>span:hover{
+    background-color: white;
+    color: blue;
+}
+
+#notice>ul>li>a>span:first-child{
+    width: 350px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    padding-top: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#notice>ul>li>a>span:last-child{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    padding-top: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#contents>#cont2{
+    width : 360px;
+    height : 200px;
+    background-color: white;
+    float : left;
+}
+#gallerybt>a>span{
+    position: relative;
+    top: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#galleryimg>ul>li>img{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 105px;
+    height: 80px;
+}
+#galleryimg>ul>li{
+    float: left;
+}
+#line{
+    width: 340px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#contents>#cont3{
+    width : 360px;
+    height : 200px;
+    background-color: white;
+    float : left;
+}
+#cont3>img{
+    height: 180px;
+    width: 340px;
+    margin-top: 10px;
+    margin-left: 20px;
+}

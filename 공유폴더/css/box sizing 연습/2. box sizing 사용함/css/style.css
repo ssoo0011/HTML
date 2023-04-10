@@ -1,0 +1,33 @@
+
+#box1{
+    border: 1px solid black;
+    background: red;
+    width:100px;
+    height:100px;
+}
+
+
+#box2{
+    border: 1px solid black;
+    background: green;
+    width:100px;
+    height:100px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+#box3{
+    border: 1px solid black;
+    background: blue;
+    width:100px;
+    height:100px;
+    padding:50px;
+    box-sizing: border-box;
+}
+/*
+box-sizing 속성을 사용하면
+패딩이 내부 크기에 포함된다.
+패딩때문에 늘어나는것을 방지한다.
+패딩때문에 글자가 밀리는것도 볼수있다.
+*/
+

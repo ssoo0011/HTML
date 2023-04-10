@@ -1,0 +1,21 @@
+
+#contents>#cont1{
+    width : 480px;
+    height : 200px;
+    background-color: khaki;
+    float : left;
+}
+
+#contents>#cont2{
+    width : 360px;
+    height : 200px;
+    background-color: darkgoldenrod;
+    float : left;
+    
+}
+#contents>#cont3{
+    width : 360px;
+    height : 200px;
+    background-color: pink;
+    float : left;
+}

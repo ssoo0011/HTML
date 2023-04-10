@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title> 테스트 </title>
+    
+    <script>
+
+    /*
+        white-space:nowrap;
+        스페이스와 탭이 여러개면 병합 (하나로 합침)
+        줄바꿈이 여러개면 병합 (하나로 합침)
+        자동 줄바꿈 X
+        영역을 벗어나도 입력된 그대로
+
+        자동 줄바꿈 O
+        영역을 벗어나면 줄바꿈
+        
+    */    
+    </script>
+<style>
+    #mydiv{
+        width:50px;
+        height:50px;
+        border:2px solid red;
+
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; 
+    }
+    
+</style>
+
+</head>
+
+<body>
+    <div id="mydiv">
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaa
+
+    </div>
+</body>
+
+</html>

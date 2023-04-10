@@ -1,0 +1,18 @@
+#contents > #con1 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: aquamarine;
+}
+#contents > #con2 {
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: lavenderblush;
+}
+#contents > #con3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: lightpink;
+}

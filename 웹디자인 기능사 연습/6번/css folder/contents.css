@@ -1,0 +1,20 @@
+
+
+#contents > #con1 {
+    width: 400px;
+    height: 200px;
+    background-color: lightcoral;
+    float: left;
+}
+#contents > #con2 {
+    width: 400px;
+    height: 200px;
+    background-color: lightpink;
+    float: left;
+}
+#contents > #con3 {
+    width: 400px;
+    height: 200px;
+    background-color: palevioletred;
+    float: left;
+}

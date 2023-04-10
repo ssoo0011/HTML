@@ -1,0 +1,124 @@
+
+#header > .logo{
+    width:30%;
+    height:100px;
+    background-color: brown;
+    float:left;
+}
+
+#header > .logo>img{
+    width:90%;
+    height:90%;
+}
+
+#header > .nav{
+    width:70%;
+    height:100px;
+    background-color: burlywood;
+    float:left;
+    padding-top:20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#header > .nav>.open_btn{
+    width:70px;
+    height:90%;
+    background-color: cadetblue;
+    padding-top: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    display:none;
+}
+
+#header > .nav>.open_btn>span{
+    width:50px;
+    height:10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#header > .nav>.gnb{
+    float:right;
+}
+
+.gnb>li{
+    float:left;
+    margin-right: 5px;
+}
+
+.gnb>li>a{
+    display:block;
+    width:150px;
+    height:60px;
+    background-color: indianred;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color:#333;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+@media all and (min-width: 400px) and (max-width: 600px)
+{
+    .gnb{
+        position: absolute;
+        left:-900px;
+        /*위치 맞추어 놓고*/
+        top:100px;
+        width:100px;
+        height:400px;
+        
+        /*gnb숨겨놓고*/
+    }
+
+    .gnb>li>a{
+        width:450px;
+        height:100px;
+        font-size: 30px;
+        border-bottom: 1px solid #333;
+    }
+
+    #header > .logo{
+        width:80%;
+    }
+
+    #header>.nav{
+        width:20%;
+        
+    }
+
+    #header > .nav>.open_btn{
+        display: block;
+    }
+}
+
+
+@media all and (min-width: 600px) and (max-width: 710px)
+{
+    .gnb>li>a{
+        width:80px;
+        height:30px;
+        font-size: 10px;
+    }
+
+    
+}
+
+@media all and (min-width: 710px) and (max-width: 1020px)
+{
+    .gnb>li>a{
+    width:100px;
+    height:40px;
+    font-size: 16px;
+    }
+}
+
+@media all and (min-width: 1020px) and (max-width: 2000px)
+{
+
+}

@@ -1,0 +1,36 @@
+
+#footer>#logo{
+    width : 200px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+#footer>#logo>img{
+    opacity: 0.4;
+}
+#footer>#copyright{
+    width : 800px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+
+#copyright{
+    padding-left: 40px;
+    padding-top: 23px;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+#footer>#sns{
+    width : 200px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+#footer>#sns>ul>li>img{
+    position: relative;
+    top: 30px;
+    width: 40px;
+    height: 37px;
+    float: right;
+}

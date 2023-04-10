@@ -1,0 +1,95 @@
+
+#contents>#cont1{
+    width : 480px;
+    height : 195px;
+    background-color: white;
+    float : left;
+}
+
+#contents>#cont2{
+    width : 360px;
+    height : 200px;
+    background-color: darkgoldenrod;
+    float : left;
+    
+}
+#contents>#cont3{
+    width : 360px;
+    height : 200px;
+    background-color: pink;
+    float : left;
+}
+#cont1>#con1-bt>a{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+ul{
+    list-style: none;
+}
+#notice>ul>li{
+    margin-top: 2px;
+}
+#notice>ul>li>a{
+    display: block;
+    background-color: white;
+    width: 475px;
+    height: 40px;
+
+}
+#notice>ul>li>a:hover{
+    color: palevioletred;
+}
+#notice>ul>li>a>span:first-child{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 340px;
+    height: 32px;
+    background-color: white;
+    float: left;
+    /*가로길이 나눠갖기*/
+}
+#notice>ul>li>a>span:last-child{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    float: left;
+    /*가로길이 나눠갖기*/
+}
+
+#gallery>ul{
+    display: none;
+    position: relative;
+    left: 10px;
+    top: -150px
+}
+#gallery>ul>li{
+    float: left;
+    margin-left: 15px;
+}
+
+#con1-bt>a>span:hover{
+    background-color: white;
+    color: palevioletred;
+}
+
+#cont2>#banner>img{
+    float: left;
+    width: 360px;
+    height: 200px;
+
+}
+

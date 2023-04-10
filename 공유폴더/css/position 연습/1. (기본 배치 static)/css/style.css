@@ -1,0 +1,21 @@
+
+#box1{
+    border: 1px solid blue;
+    background: rgb(61, 62, 117);
+    width:100px;
+    height:100px;
+}
+
+#box2{
+    border: 1px solid red;
+    background: yellow;
+    width:100px;
+    height:100px;
+}
+
+#box3{
+    border: 1px solid blue;
+    background: rgb(61, 62, 117);
+    width:100px;
+    height:100px;
+}

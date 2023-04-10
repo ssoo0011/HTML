@@ -1,0 +1,23 @@
+
+#footer>#logo{
+    width: 150px;
+    height: 100px;
+    background-color: peachpuff;
+    float: right;
+}
+
+
+#footer>#menu{
+    width: 1050px;
+    height: 50px;
+    background-color: lightgreen;
+    display: inline-block;
+}
+
+
+#footer>#copyright{
+    width: 1050px;
+    height: 50px;
+    background-color: lightgrey;
+    display: inline-block;
+}

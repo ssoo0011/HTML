@@ -1,0 +1,24 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#parent{
+
+    background: red;
+}
+
+#child1{
+    float:left;
+    width:100px;
+    height:100px;
+    background: green;
+}
+
+#child2{
+    float:left;
+    width:100px;
+    height:100px;
+    background: blue;
+}

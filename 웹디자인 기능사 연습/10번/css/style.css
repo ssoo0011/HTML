@@ -1,0 +1,39 @@
+@charset "UTF- 8";
+
+#wrap {
+    width: 1000px;
+    height: 650px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#header {
+    width: 200px;
+    height: 650px;
+    background-color: bisque;
+    float: left;
+}
+
+#slide {
+    width: 800px;
+    height: 350px;
+    background-color: sandybrown;
+    float: left;
+  
+}
+
+#contents{
+    width: 800px;
+    height: 200px;
+    background-color: wheat;
+    float: left;
+
+}
+
+#footer {
+    width: 800px;
+    height: 100px;
+    background-color: fuchsia;
+    float: left;
+
+}

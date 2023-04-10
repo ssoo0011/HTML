@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+    ul>li:first-child
+    {
+        background:red;
+    }
+
+    ul>li:nth-child(2)
+    {
+        background:orange;
+    }

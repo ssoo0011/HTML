@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            border : 4px solid red;
+            width: 700px;
+            height: 700px;
+        }
+
+        #wrap div:first-child {
+            border : 4px solid blue;
+            width: 400px;
+            height: 400px;
+            background: #326197;
+        }
+
+        #wrap div:first-child+div {
+            border : 4px solid yellow;
+            width: 200px;
+            height: 200px;
+            background: #f7e041;
+        }   
+
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div> 첫 번째 </div>
+        <div> 두 번째 </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.tri1{
+    width: 0px;height: 0px;
+    border-bottom:50px solid transparent;
+    border-right: 50px solid none;
+    border-left: 50px solid  red;
+  }
+
+  .tri2{
+    width: 0px;height: 0px;
+    border-top:50px solid transparent;
+    border-right: 50px solid none;
+    border-left: 50px solid  red;
+  }
+
+  .tri3{
+    width: 0px;height: 0px;
+    border-bottom:50px solid transparent;
+    border-right: 50px solid red;
+    border-left: 50px solid  none;
+  }
+
+  .tri4{
+    width: 0px;height: 0px;
+    border-top:50px solid transparent;
+    border-right: 50px solid red;
+    border-left: 50px solid  none;
+  }
+
+  /*
+
+  직각 삼각형은 3개만 준다.
+
+  화살표 시작하는 곳 (뿌리)은 경계선 존재
+  화살표 방향이 향하는 쪽은 none
+
+  투명인 부분이 하얗게 패이는곳
+  직각 삼각형은 한쪽만 패이니까
+  한쪽만 transparent
+  */
+

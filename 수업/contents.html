@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+#con1{
+    width: 480px;
+    height: 200px;
+    background-color: chartreuse;
+}
+#tab-btn>a{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin-right: -7px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background-color: seagreen;
+    color: white;
+}
+#tab-btn>a:hover{
+    background-color: plum;
+    color: white;
+}
+#tab-contents>#notice{
+    width: 475px;
+    height: 145px;
+    background-color: wheat;
+}
+#notice>ul>li{
+    margin-bottom: 1px;
+}
+#notice>ul>li>a{
+    color: black;
+    display: block;
+    width: 470px;
+    height: 32px;
+    background-color: paleturquoise;
+}
+#notice>ul>li>a>span:first-child{
+    float: left;
+    width: 390px;
+    height: 32px;
+    background-color: aqua;
+    /*가로길이 나눠갖기*/
+}
+/* #notice>ul>li>a>span:nth-child(2){
+    
+}
+#notice>ul>li>a>span:nth-child(3){
+    
+}
+#notice>ul>li>a>span:last-child{
+    
+} */
+#tab-contents>#gallery{
+    width: 475px;
+    height: 145px;
+    background-color: darkcyan;
+}
+#gallery>ul{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+#gallery>ul>li{
+    float: left;
+    margin-right: 15px;
+}
+/* #gallery>ul>li>a>img{
+    
+} */
+
+
+</style>
+<body>
+    <div id="tab">
+        <div id="tab-btn">
+            <a href="#">공지사항</a>
+            <a href="#">갤러리</a>
+        </div>
+        <div id="tab-contants">
+            <div id="notice">
+                <ul>
+
+                    <li><a href="#"><span>제목1</span><span>20221215</span></a></li>
+                    <li><a href="#"><span>제목22</span><span>20221216</span></a></li>
+                    <li><a href="#"><span>제목333</span><span>20221217</span></a></li>
+                    <li><a href="#"><span>제목4444</span><span>20221218</span></a></li>
+                </ul>
+            </div>
+            <div id="gallery">
+                <ul>
+                    <li><a href="#"><img src="/웹디자인 기능사 연습/1번JUST쇼핑몰_3/images/gallery1.jpg" alt= "갤러리1"></a></li>
+                    <li><a href="#"><img src="/웹디자인 기능사 연습/1번JUST쇼핑몰_3/images/gallery1.jpg" alt= "갤러리1"></a></li>
+                    <li><a href="#"><img src="/웹디자인 기능사 연습/1번JUST쇼핑몰_3/images/gallery1.jpg" alt= "갤러리1"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

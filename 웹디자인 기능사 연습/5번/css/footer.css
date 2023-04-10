@@ -1,0 +1,22 @@
+
+#footer > #logo {
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: sandybrown;
+}
+
+
+#footer > #menu {
+    width: 1000px;
+    height: 50px;
+    display: inline-block;
+    background-color: orange;
+}
+
+#footer > #copyright {
+    width: 1000px;
+    height: 50px;
+    display: inline-block;
+    background-color: olive;
+}

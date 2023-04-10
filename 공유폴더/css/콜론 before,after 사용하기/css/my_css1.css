@@ -1,0 +1,4 @@
+h4:before{content: url("./images/tiger.gif");}
+h4:after{content:"~!"; color:red;font-weight:bold;}
+p:before{content:open-quote;}
+p:after{content:close-quote;}

@@ -1,0 +1,19 @@
+
+#footer>#logo{
+    width: 100px;
+    height: 100px;
+    background-color: lemonchiffon;
+    float: left;
+}
+#footer>#menu{
+    width: 700px;
+    height: 50px;
+    background-color: lawngreen;
+    display: inline-block;
+}
+#footer>#copyright{
+    width: 700px;
+    height: 50px;
+    background-color: lightcoral;
+    display: inline-block;
+}

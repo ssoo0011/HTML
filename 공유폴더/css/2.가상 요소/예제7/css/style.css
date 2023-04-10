@@ -1,0 +1,39 @@
+ul{
+    list-style:none;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+/*li에 relative를 걸어야*/
+li{
+ position:relative;
+ border:1px solid black;
+ width:100px;
+ height:50px;
+ margin:5px;
+
+}
+/*li에 relative를 걸어야*/
+/*li:before에서 생성한 요소가 li를 기준으로 잡고 배치됨*/
+li::before{
+     position:absolute;
+     left:0;
+     top:0;
+     content:"박스";
+     display:inline-block;
+     width:50px;
+     height:30px;
+     background: #ccc;
+     border-radius: 10px;
+}
+
+li > a{
+   padding-left: 50px;
+}

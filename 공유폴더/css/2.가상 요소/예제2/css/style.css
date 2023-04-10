@@ -1,0 +1,32 @@
+ul{
+    list-style:none;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+li{
+ border:1px solid black;
+ width:100px;
+ height:50px;
+ margin:5px;
+}
+/*
+li태그 이전에 "박스: " 넣음
+가로,세로,배경,경계선 디자인해서~~
+*/
+li::before{
+     content:"박스";
+     display:block;
+     width:50px;
+     height:30px;
+     background: #ccc;
+     border-radius: 10px;
+}

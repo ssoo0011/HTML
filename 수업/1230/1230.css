@@ -1,0 +1,29 @@
+#wrap{
+    width: 100%;
+    height: 850px;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+#header{
+    width: calc(100% - 1100px);
+    height: 850px;
+    background-color: palevioletred;
+    float: left;
+}
+#main{
+    width: 90%;
+    height: 750px;
+    background-color: yellowgreen;
+
+}
+#footer{
+    width: 90%;
+    height: 100px;
+    background-color: paleturquoise;
+}
+#header>#logo{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#ffbfca, #ffdeac);
+}

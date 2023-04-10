@@ -1,0 +1,21 @@
+
+#contents > #con1 {
+    width: 400px;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+
+#contents > #con2 {
+    width: 400px;
+    height: 200px;
+    background-color: burlywood;
+    float: left;
+}
+
+#contents > #con3 {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    float: left;
+}

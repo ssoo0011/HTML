@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #slide{
+        width: 1200px;
+        height: 300px;
+        background-color: cadetblue;
+        /* overflow: hidden; 넘치는거 훔겨준다! */
+    }
+    #slide-contents{
+        width: 3600px;
+        height: 300px; /*세 개 담을 수 있는 크기로*/
+        
+    }
+    #slide-contents>img{
+        /* display: block; 이미지 공백x */
+        float: left;
+    }
+</style>
+<body>
+    <div id="slide">
+        <div id="slide-contents">
+            <img src="/수업/img/slide1.jpg" alt="슬라이드1">
+            <img src="/수업/img/slide2.jpg" alt="슬라이드2">
+            <img src="/수업/img/slide3.jpg" alt="슬라이드3">
+        </div>
+    </div>
+</body>
+</html>

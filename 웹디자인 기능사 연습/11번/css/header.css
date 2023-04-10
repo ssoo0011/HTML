@@ -1,0 +1,13 @@
+
+#header > #logo {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#header > #nav {
+    width: 200px;
+    height: 550px;
+    background-color: yellowgreen;
+    
+}

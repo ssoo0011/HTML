@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+#header> #gnb{
+    width: 800px;
+    height: 60px;
+    background-color: yellowgreen;
+    position: relative;
+    left: 350px;
+
+}
+
+#header> #gnb> li{
+    float: left;
+}
+
+#gnb>li>a{
+    width: 150px;
+    height: 50px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 20px;
+}
+
+
+#gnb>li>a:hover{
+    background-color: black; /*커서 올라가면 색 바뀜! ㄷㄷ*/
+    color: pink;
+}
+
+#lnb>li>a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    padding-top: 12px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+#lnb>li>a:hover{
+    background-color: black; /*커서 올라가면 색 바뀜! ㄷㄷ*/
+    color: #e7858d;
+}

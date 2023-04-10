@@ -1,0 +1,79 @@
+
+#header>#logo{
+    width : 200px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+#logo>img{
+    position: relative;
+    top: 30px;
+}
+#header>#nav{
+    width : 1000px;
+    height : 100px;
+    background-color: white;
+    float : left;  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.gnb{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 320px;
+    top: 25px;
+    z-index : 100;
+}
+.gnb>li{
+    float: left;
+    margin-left: 2px;
+
+}
+.gnb>li>a{
+    width: 170px;
+    height: 50px;
+    display: block;
+    background-color: #3cb149;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+.gnb>li>a{
+    color: white;
+
+}
+.gnb>li>a:hover{
+    background-color: #18461d;
+    color: white;
+}
+
+.lnb>li{
+    text-align: center;
+}
+.lnb>li>a{
+    width: 170px;
+    height: 50px;
+    display: block;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color: #f2faf3;
+    text-align: center;
+    color:#18461d;
+}
+.lnb>li>a:hover{
+    background-color: #f2faf3;
+    color: palevioletred;
+}
+.lnb{ /*lnb디스플레이 숨기기*/
+    display: none;
+}

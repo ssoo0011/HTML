@@ -1,0 +1,12 @@
+
+#header > #logo{
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+#header > #nav{
+    width: 200px;
+    height: 550px;
+    background-color: skyblue;
+}

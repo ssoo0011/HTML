@@ -1,0 +1,22 @@
+
+#footer > #logo {
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+#footer > #copyright{
+    width: 800px;
+    height: 100px;
+    background-color: papayawhip;
+    float: left;
+}
+
+#footer > #sns{
+    width: 200px;
+    height: 100px;
+    background-color: rosybrown;
+    float: left;
+
+}

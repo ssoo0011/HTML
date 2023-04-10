@@ -1,0 +1,10 @@
+.logo1, .logo2, .logo3, .logo4
+{ background: url("../images/img_intro.png") no-repeat; }
+    
+    .logo1 { width: 65px; height: 65px; background-position: -8px -235px; }
+
+    .logo2 { width: 65px; height: 65px; background-position: -80px -235px; }
+
+    .logo3 { width: 65px; height: 65px; background-position: -154px -235px; }
+
+    .logo4 { width: 65px; height: 65px; background-position: -229px -235px; }

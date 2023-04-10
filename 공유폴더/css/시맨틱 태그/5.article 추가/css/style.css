@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* common */
+* {
+    margin:0; padding:0;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    text-decoration:none; color:inherit;
+}
+
+#wrap{
+    width:1200px;
+    height:700px;
+    background: aqua;
+}
+
+#header{
+    width:1200px;
+    height:100px;
+    background: aquamarine;
+}
+
+#main{
+    width:1200px;
+    height:500px;
+    background: blueviolet;
+}
+
+#main>#news-section{
+    width:1200px;
+    height:400px;
+    background: chartreuse;
+}
+
+#main>#news-section>article:first-child{
+    width:1200px;
+    height:200px;
+    background: coral;
+}
+#main>#news-section>article:nth-child(2){
+    width:1200px;
+    height:200px;
+    background: chocolate;
+}
+
+
+#header{
+    width:1200px;
+    height:100px;
+    background: brown;
+}

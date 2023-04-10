@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>샘플</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <style>
+        p { 
+            padding-left: 100px;
+            background-color: aqua;
+        }
+        em{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        css 속성에는
+        CSS 속성은 상속하는 속성과 상속하지 않는 속성이 있습니다. 
+        상속하는 속성은 자식 요소에 영향을 미칩니다. 
+        상속하지 않는 속성은 자식 요소에 영향을 미치지 않습니다.
+    -->
+    <p>
+        paragraph 
+        <em>emphasize</em>
+    </p>
+    <!--
+        padding속성은 상속되지 않는 속성이기 때문에
+        부모에서 적용한 padding-left는
+        자식에게도 적용되지 않는다.
+        어찌보면 당연한것일지도...
+        부모의 여백이 자식에게 그대로 내려온다면...
+        디자인이 다 깨지고, 굉장히 안좋을것
+    -->
+</body>
+</html>

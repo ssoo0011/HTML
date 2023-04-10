@@ -1,0 +1,35 @@
+
+@charset "UTB - 8";
+
+#wrap {
+    width: 1200px;
+    height: 100;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1200px;
+    height: 100px;
+    background-color: aqua;
+
+}
+#slide {
+    width: 1200px;
+    height: 300px;
+    background-color: whitesmoke;
+
+}
+
+#contents {
+    width: 1200px;
+    height: 200px;
+    background-color: floralwhite;
+
+}
+#footer {
+    width: 1200px;
+    height: 100px;
+    background-color: green;
+
+}

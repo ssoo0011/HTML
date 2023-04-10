@@ -1,0 +1,46 @@
+
+#header > .logo{
+    width:30%;
+    height:100px;
+    background-color: brown;
+    float:left;
+}
+
+#header > .logo>img{
+    width:90%;
+    height:90%;
+}
+
+#header > .nav{
+    width:70%;
+    height:100px;
+    background-color: burlywood;
+    float:left;
+    z-index: 2;
+    position: relative;
+    padding-top:20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+#header > .nav>.gnb{
+    float:right;
+}
+
+.gnb>li{
+    float:left;
+    margin-right: 5px;
+}
+
+.gnb>li>a{
+    display:block;
+    width:150px;
+    height:60px;
+    background-color: indianred;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color:#333;
+    font-weight: bold;
+    font-size: 26px;
+}

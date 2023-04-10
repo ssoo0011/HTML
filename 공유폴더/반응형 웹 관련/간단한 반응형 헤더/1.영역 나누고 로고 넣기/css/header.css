@@ -1,0 +1,19 @@
+
+#header > .logo{
+    width:30%;
+    height:100px;
+    background-color: brown;
+    float:left;
+}
+
+#header > .logo>img{
+    width:90%;
+    height:90%;
+}
+
+#header > .nav{
+    width:70%;
+    height:100px;
+    background-color: burlywood;
+    float:left;
+}

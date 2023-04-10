@@ -1,0 +1,18 @@
+.tri{
+    width: 0px;height: 0px;
+    border-top:50px solid transparent ;
+    border-bottom:50px solid transparent;
+    border-right: 50px solid red;
+    border-left: 50px solid  none;
+  }
+
+  /*
+  화살표 시작하는 곳 (뿌리)은 경계선 존재
+  화살표 방향이 향하는 쪽은 none
+
+  나머지 부분은
+  벽을 투명하게
+
+  투명인 부분이 하얗게 패이는곳
+  */
+

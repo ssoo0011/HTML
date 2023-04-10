@@ -1,0 +1,15 @@
+
+#header>#logo{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+
+#header>#nav{
+    width: 1050px;
+    height: 100px;
+    background-color: aquamarine;
+    float: left;
+   
+}

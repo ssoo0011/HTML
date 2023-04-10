@@ -1,0 +1,42 @@
+
+#box1{
+    border: 1px solid black;
+    background: red;
+    width:100px;
+    height:100px;
+}
+
+#inner_box1{
+    border: 1px solid black;
+    background: orange;
+    width:100%;
+    height:50px;
+}
+
+#box2{
+    border: 1px solid black;
+    background: green;
+    width:100px;
+    height:100px;
+}
+
+#inner_box2{
+    border: 1px solid black;
+    background: greenyellow;
+    width:100%;
+    height:50px;
+}
+
+#box3{
+    border: 1px solid black;
+    background: blue;
+    width:100px;
+    height:100px;
+}
+
+#inner_box3{
+    border: 1px solid black;
+    background: skyblue;
+    width:100%;
+    height:50px;
+}

@@ -1,0 +1,14 @@
+div {
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+  }
+
+  .a {
+    background:white url("../images/bg-top.png") 0 0 repeat-x;
+  }
+  /*
+  가로 세로 0에서 시작
+  가로 100%를 넣어도됨
+  100% 0 도 같은 결과
+  */

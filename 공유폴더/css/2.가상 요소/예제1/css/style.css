@@ -1,0 +1,24 @@
+ul{
+    list-style:none;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+li{
+ border:1px solid black;
+ width:100px;
+ height:50px;
+ margin:5px;
+}
+/*li태그 이전에 "이름: "글자 넣음 */
+li::before{
+     content:"이름: "
+}

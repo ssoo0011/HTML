@@ -1,0 +1,90 @@
+
+#header>#logo{
+    width : 210px;
+    height : 100px;
+    /* background-color: darkcyan; */
+    float : left;
+}
+
+#logo>img{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    background-color: white;
+    display: block;
+}
+
+#header>#nav{
+    width : 990px;
+    height : 100px;
+    background-color: white;
+    float : left;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+#header> #nav> #gnb{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 350px;
+    top: 40px;
+}
+
+#header> #nav> #gnb> li{
+    float: left;
+}
+
+#gnb>li>a{
+    width: 149px;
+    height: 50px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: black;
+    margin-left: 1px;
+}
+
+
+#gnb>li>a:hover{
+    background-color: white; /*커서 올라가면 색 바뀜! ㄷㄷ*/
+    color: pink;
+}
+
+#lnb>li>a{
+    display: block;
+    width: 149px;
+    height: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    color: gray;
+}
+
+#lnb>li>a:hover{
+    background-color: white; /*커서 올라가면 색 바뀜! ㄷㄷ*/
+    color: #e7858d;
+}
+#lnb{ /*lnb디스플레이 숨기기*/
+    display: none;
+}
+
+#gnb:hover #lnb{ /*마우스 갖다대면 나타나기*/
+    display: block;
+}

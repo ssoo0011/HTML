@@ -1,0 +1,99 @@
+*{
+    margin:0; padding:0;
+}
+
+#wrap{
+width:90%;
+height:800px;
+margin:0 auto;
+border:4px solid #000;
+font-size:0;
+background-color: aqua;
+}
+
+#wrap>#header{
+    width:100%;
+    height:100px;
+    background-color: aquamarine;
+}
+
+#wrap>#slide{
+    width:100%;
+    height:300px;
+    background-color: burlywood;
+}
+
+#wrap>#contents{
+    width:100%;
+    height:400px;
+    background-color: brown;
+    display: inline-block;
+}
+
+#wrap>#contents>#con1{
+    background-color: aqua;
+    width: 25%;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#wrap>#contents>#con1>img{
+    width: 100%;
+    height: 100%;
+}
+#wrap>#contents>#con2{
+    background-color: aqua;
+    width: 25%;
+    height: 70%;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#wrap>#contents>#con2>img{
+    width: 100%;
+    height: 100%;
+}
+#wrap>#contents>#con3{
+    background-color: aqua;
+    width: 25%;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#wrap>#contents>#con3>img{
+    width: 100%;
+    height: 100%;
+}
+#wrap>#contents>#con4{
+    background-color: aqua;
+    width: 25%;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#wrap>#contents>#con4>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media all and (min-width: 0px) and (max-width: 600px)
+{
+ #wrap>#div{
+    width: 100%;
+ }
+}
+
+@media all and (min-width: 600px) and (max-width: 800px)
+{
+ #wrap div{
+    width:50%;
+        
+ }      
+}
+
+@media all and (min-width: 600px) and (max-width: 2000px)
+{
+
+}

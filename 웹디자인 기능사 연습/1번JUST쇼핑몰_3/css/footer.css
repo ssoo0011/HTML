@@ -1,0 +1,44 @@
+
+#footer>#logo{
+    width : 200px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+
+#footer>#copyright{
+    width : 800px;
+    height : 100px;
+    background-color: palevioletred;
+    float : left;
+}
+#footer>#sns{
+    width : 200px;
+    height : 100px;
+    background-color: white;
+    float : left;
+}
+
+#footer>#logo>img{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 15px;
+    top: 23px;
+}
+#footer>#copyright>#soyoung{
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    padding-top: 29px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+#footer>#sns>ul>li>img{
+    position: relative;
+    top: 30px;
+    width: 40px;
+    height: 37px;
+    float: right;
+}

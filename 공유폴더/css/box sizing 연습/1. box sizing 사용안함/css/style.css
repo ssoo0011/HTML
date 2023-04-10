@@ -1,0 +1,28 @@
+
+#box1{
+    border: 1px solid black;
+    background: red;
+    width:100px;
+    height:100px;
+}
+
+
+#box2{
+    border: 1px solid black;
+    background: green;
+    width:100px;
+    height:100px;
+    padding:20px;
+}
+
+#box3{
+    border: 1px solid black;
+    background: blue;
+    width:100px;
+    height:100px;
+    padding:50px;
+}
+
+/*
+padding만큼 박스가 늘어나게된다.
+*/

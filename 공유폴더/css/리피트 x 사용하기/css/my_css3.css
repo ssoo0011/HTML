@@ -1,0 +1,15 @@
+div {
+    width: 100%;
+    height: 600px;
+    border: 2px solid red;
+  }
+
+  .a {
+    background:white url("../images/bg-top.png") 0 100% repeat-x;
+  }
+  /*
+  세로 100%에서 시작
+  30%도 써보고
+  75%도 써보고
+  ...
+  */

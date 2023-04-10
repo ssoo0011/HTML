@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+}
+@media all and (max-width:1200px){
+    #wrap{
+    width: 100%;
+    height: 1000px;
+    background-color: paleturquoise;
+    }
+}
+@media all and (max-width:800px){
+    #wrap{
+    width: 100%;
+    height: 1000px;
+    background-color: palevioletred;
+    }
+}
+@media all and (max-width:600px){
+    #wrap{
+    width: 100%;
+    height: 1000px;
+    background-color: peachpuff;
+    }
+}

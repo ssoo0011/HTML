@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>샘플</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <style>
+        .section{
+            font-size:24px;
+        }
+        .title{
+            font-size:1em;
+            /* 부모의 글꼴 크기를 1em으로 함 */
+            /* 24px */
+        }
+        .subtitle{
+            font-size:0.8em;
+            /* 부모인 title의 0.8배 */
+            /* 부모의 기준값이 24px이므로 */
+            /* 24x0.8 = 19.2px */
+        }
+        .leading    {
+            font-size:0.6em;
+            /* 부모인 subtitle의 0.6배 */
+            /* 부모의 기준값이 19.2px이므로 */
+            /* 19.2 x 0.6 = 11.52px */
+        }
+        
+        /*
+        em의 문제점은 중첩이 되었을때
+        글자가 많이 작아지거나, 커지거나 하는 상황이 발생할 수 있음
+        */
+    </style>
+</head>
+<body>
+
+    <div class="section">
+        section
+        <div class="title">
+            title
+        </div>
+        <div class="subtitle">
+            subtitle
+            <div class="leading">
+                leading
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

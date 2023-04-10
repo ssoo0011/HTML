@@ -1,0 +1,29 @@
+
+#box1{
+    border: 1px solid black;
+    background: red;
+    width:100px;
+    height:100px;
+}
+
+
+#box2{
+    border: 1px solid black;
+    background: green;
+    width:100px;
+    height:100px;
+    padding:50px;
+    box-sizing: border-box;
+}
+
+#box3{
+    border: 1px solid black;
+    background: blue;
+    width:100px;
+    height:100px;
+    padding:80px;
+    box-sizing: border-box;
+}
+/*패딩이 너무 커져서 안으로 밀어도 소용이 없다.*/
+/*패딩과 글자 크기를 포함해서 100을 넘어가기 때문에*/
+/*넘치게 되었다.*/

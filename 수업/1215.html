@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    #gnb{
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    #gnb>li{
+        position: relative;
+    }
+    #gnb>li>a{
+        display: block;
+        width: 100px;
+        height: 40px;
+        background-color: yellowgreen;
+        color: white;
+        text-align: center;
+        padding-top: 7px;
+        box-sizing: border-box;
+    }
+    #lnb>li>a{
+        display: block;
+        width: 100px;
+        height: 40px;
+        background-color: wheat;
+        color: green;
+        text-align: center;
+        padding-top: 7px;
+        box-sizing: border-box;
+    }
+    #gnb li a:hover{
+        background-color: black;
+        color: greenyellow
+    }
+
+    #lnb > li > a:hover{
+        color: blue;
+        background-color: white;
+    }
+    #lnb{
+        display: none;
+        position: absolute;
+        left: 100px;
+        top: -40px;
+    }
+    #gnb>li:first-child>#lnb{
+        display: block;
+    }
+    /* #gnb>li:nth-child(2)>#lnb{
+        display: block;
+    }
+    #gnb>li:nth-child(3)>#lnb{
+        display: block;
+    }
+    #gnb>li:last-child>#lnb{
+        display: block;
+    }  */
+
+</style>
+<body>
+    <ul id = "gnb">
+        <li><!--position relative-->
+            <a href="#">이용안내</a>
+            <ul id = "lnb"><!--position absolute-->
+                <li><a href="#">이용안내</a></li>
+                <li><a href="#">이용시간</a></li>
+                <li><a href="#">이용요금</a></li>
+            </ul>
+        </li>
+        <li> <!--position relative-->
+            <a href="#">이벤트 정보</a>
+             <ul id = "lnb"> <!--position absolute-->
+                <li><a href="#">현장이벤트</a></li>
+                <li><a href="#">온라인이벤트</a></li>
+                <li><a href="#">이벤트예약</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">프로그램</a>
+            <ul id = "lnb">
+                <li><a href="#">프로그램안내</a></li>
+                <li><a href="#">온라인예약</a></li>
+                <li><a href="#">단체상담예약</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">고객센터</a>
+            <ul id = "lnb">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">자주묻는질문</a></li>
+                <li><a href="#">자료실</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

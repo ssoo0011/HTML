@@ -1,0 +1,23 @@
+
+#contents > #con1{
+    width: 300px;
+    height: 200px;
+    background-color: paleturquoise;
+    float: left;
+}
+
+
+#contents > #con2{
+    width: 300px;
+    height: 200px;
+    background-color: palegoldenrod;
+    float: left;
+}
+
+
+#contents > #con3{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    float: left;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>샘플</title>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <style>
+        #parent-div{
+            background-color: aqua;
+            text-align: center;
+
+            width:200px;
+            height:200px;
+        }
+        #child-div{
+            background-color: aquamarine;
+
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        opacity:투명도는 상속됨
+    -->
+    <div id="parent-div">
+        박스
+        <div id="child-div">이름</div>
+    </div>
+    <!--
+        둘다 가운데 정렬이 됨
+    -->
+</body>
+</html>

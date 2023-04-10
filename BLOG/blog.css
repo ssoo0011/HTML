@@ -1,0 +1,22 @@
+
+div{
+    width: 200px;
+    height:100px;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+}
+
+#div1{
+    background-color: #24a7ff;
+}
+
+#div2{
+    background-color: #ff887f;
+}
+#div3{
+    background-color: #acff85;
+}
+

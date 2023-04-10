@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    width: 100%;
+    height: 500px;
+    font-size: 0;
+    background-color: paleturquoise;
+}
+#wrap>#header{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+#header>#header-top{
+    width: 100%;
+    height: 100px;
+    background-color: yellowgreen;
+}
+#header-top-left{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: forestgreen;
+}
+#mobile-btn{
+    width: 45px;
+    height: 40px;
+    background-color: blue;
+    padding-top: 5px;
+    box-sizing: border-box;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    display: none;
+}
+#mobile-btn>span{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+#header-top-mid{
+    float: left;
+    width: 60%;
+    height: 100px;
+    background-color: paleturquoise;
+}
+#header-top-right{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: khaki;
+}
+#header>#header-bottom{
+    width: 100%;
+    height: 100px;
+    background-color: peru;
+}
+#header-bottom>#menu{
+    width: 1200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+#menu>ul{
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+}
+#menu>ul>li{
+    float: left;
+    width: 12.5%;
+    height: 100%;
+    background-color: honeydew;
+}
+#menu>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: palevioletred;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+#gnb li a:hover{
+    background-color: sandybrown;
+    color: sienna;
+}
+
+@media screen and (max-width:1200px){
+    #header-bottom> #menu{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    #menu>ul>li{
+        float: none;
+        width: 180px;
+        height: 180px;
+    }
+    #menu>ul>li>a{
+        padding-top: 10px;
+    }
+    #header-bottom>#menu{
+        position: relative;
+        left: -200px;
+    }
+    #mobile-btn{
+        display: block;
+    }
+}

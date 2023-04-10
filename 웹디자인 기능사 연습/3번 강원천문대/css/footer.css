@@ -1,0 +1,22 @@
+
+#footer>#logo{
+    width : 200px;
+    height : 100px;
+    background-color: salmon;
+    float : left;
+}
+
+#footer>#sns{
+    width : 1000px;
+    height : 50px;
+    background-color: yellowgreen;
+    display : inline-block;
+}
+
+
+#footer>#copyright{
+    width : 1000px;
+    height : 50px;
+    background-color: plum;
+    display : inline-block;
+}

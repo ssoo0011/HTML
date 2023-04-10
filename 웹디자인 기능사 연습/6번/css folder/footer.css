@@ -1,0 +1,23 @@
+
+
+#footer > #copyright {
+    width: 1000px;
+    height: 100px;
+    background-color: plum;
+    float: left;
+}
+
+#footer > #sns {
+    width: 200px;
+    height: 50px;
+    background-color: mediumpurple;
+    float: left;
+    display: inline - block;
+}
+#footer > #family {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background-color: khaki;
+    display: inline - block;
+}
